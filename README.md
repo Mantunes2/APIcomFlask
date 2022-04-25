@@ -8,7 +8,7 @@
 
 Endpoits:
 
-- /Vendas - GET
+- /vendas - GET
 - /lojas - GET
 - /produtos - GET
 
