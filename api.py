@@ -24,7 +24,7 @@ def produtos():
   tabela = pd.read_excel('Vendas.xlsx')
   total_pr = tabela.groupby('Produto').sum()
   produto = total_pr.index.to_list()
-  produto_json = {'Lojas': produto}
+  produto_json = {'Produtos': produto}
   return jsonify(produto_json)
 
 @app.route('/lojas')
