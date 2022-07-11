@@ -8,9 +8,15 @@
 
 Endpoits:
 
-- /vendas - GET
-- /lojas - GET
-- /produtos - GET
+```
+/vendas - GET
+```
+```
+/lojas - GET
+```
+```
+/produtos - GET
+```
 
 Requisitos:
 
